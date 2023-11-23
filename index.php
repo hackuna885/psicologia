@@ -33,7 +33,7 @@ session_destroy();
                 <div class="p-5">
                   <div class="text-center">
                     <img src="img/logoUTFV.svg" alt="logoUTFV" class="img-fluid mb-4">
-                    <h1 class="h4 text-gray-900 mb-4">¡Bienvenido!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">¡Bienvenide!</h1>
                   </div>
 
                   <form class="user" id="login">
