@@ -2,16 +2,16 @@ app.component('clientes-alta', {
     template: /*html*/ `
       <div class="container-fluid">
 
-        <h1 class="h3 mb-4 text-gray-800">Alta de Clientes</h1>
+        <h1 class="h3 mb-4 text-gray-800">Alta de Usuarios</h1>
         <div class="card shadow mb-4 animate__animated animate__fadeIn">
           <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Datos del cliente</h6>
+            <h6 class="m-0 font-weight-bold text-primary">Datos del Usuario</h6>
           </div>
           <div class="card-body">
             <form class="user" @submit.prevent="alta">
               <div class="row">
                 <div class="form-group col-lg-4 col-md-6 mb-3">
-                  <label>Nombre Comercial:</label>
+                  <label>Nombre:</label>
                   <input type="text" class="form-control form-control-user" v-model="nomComer" id="autoFocus" placeholder="..." required>
                 </div>
                 <div class="form-group col-lg-4 col-md-6 mb-3">
@@ -41,7 +41,7 @@ app.component('clientes-alta', {
                 <thead>
                   <tr>
                     <th>Num</th>
-                    <th>Nombre Comercial</th>
+                    <th>Nombre</th>
                     <th>RFC</th>
                     <th>Nombre del representante</th>
                     <th></th>
